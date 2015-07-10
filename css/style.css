@@ -411,6 +411,8 @@ ul.social-slide li i.mac{
   margin: 0px 0px;
   padding: 0px 0;
   position: relative;}
+  .contact-form{width: 545px;
+  float: right;}
 @media screen and (max-width: 600px) {
   .callbacks_nav {
     top: 47%;
@@ -1283,7 +1285,7 @@ text-align:center;
 }
 .contact-form input[type="text"]:nth-child(3){
 margin-right:0;
-width: 374px;
+width: 100%;
 }
 .btn1 {
   color: #ffffff;
@@ -3011,6 +3013,14 @@ margin-bottom:0;
 	  }
 }
 @media(max-width:480px){
+	
+	.contact .contact-form{
+ margin-top: 236px;
+  margin-right: -262px;
+  width: 100%;
+  float: left;
+}
+.contact .contact-map {width:91%}
 .recent-posts-info {
   margin-bottom: 2em;
   width: 100%;
@@ -3212,6 +3222,13 @@ margin-top:60px;
 	}
 }
 @media(max-width:320px){
+	.contact .contact-form{
+ margin-top: 236px;
+  margin-right: -262px;
+  width: 100%;
+  float: left;
+}
+.contact .contact-map {width:91%}
 .header-left ,.header-right{
   margin-top: 9px;
 }
@@ -3328,6 +3345,8 @@ padding:28px 0 0 0;
 .footer {
   background: #e7eaed;
   padding: 40px 0;
+  height: 100%;
+  width: 100%;
 }
 .footer-grid {
   width: 100% !important;
@@ -3475,7 +3494,7 @@ line-height:1.6em;
   padding: 0;
 }
 .contact {
-  padding: 40px 0;
+  padding: 54px 0;
 }
 .contact-map {
   margin: 0 0 20px 0;
