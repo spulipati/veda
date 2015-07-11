@@ -1,2 +1,0 @@
-# veda
-veda website
